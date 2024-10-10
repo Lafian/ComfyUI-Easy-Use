@@ -20,5 +20,3 @@ else
     echo "Installing with system Python"
     pip install -r "$requirements_txt"
 fi
-
-read -p "Press any key to continue..."
