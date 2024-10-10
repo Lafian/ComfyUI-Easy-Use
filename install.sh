@@ -5,7 +5,7 @@ requirements_repair_txt="$(dirname "$0")/repair_dependency_list.txt"
 python_exec="../../../python_embeded/python.exe"
 aki_python_exec="../../python/python.exe"
 
-echo "Installing EasyUse Requirements..."
+echo "Installing EasyUse Requirements...."
 
 if [ -f "$python_exec" ]; then
     echo "Installing with ComfyUI Portable"
